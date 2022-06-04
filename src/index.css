@@ -1,13 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Nunito+Sans&family=Roboto&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#000;
+  color: red;
+  height: 100%;
+}
+.navigation{
+  background-color:transparent;
+  box-shadow: 5px 5px 5px rgb(255,255,255);
+}
+.container-nav{
+  display: flex;
+  justify-content: space-between;
+  padding:20px;
+}
+.search{
+  display: flex;
+}
+.input{
+  padding:10px;
+  border:none;
+  outline:none;
+}
+.search button{
+  padding:10px;
+  border:none;
+}
+.div-loading{
+  font-size:40px;
+  text-align:center;
+  color: white;
+  margin:50px;
+}
+.movie-list{
+  box-shadow: 5px 5px 5px rgb(255,255,225);
+}
+.movie-img{
+  width:100%;
+  height:75%;
+}
+.title-movie{
+  
+  text-transform:uppercase;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+
+@media only screen and (max-width:600px){
+    .reduce{
+      font-size: 12px;
+    }
+    .input{
+      padding:5px;
+    }
+    .movie{
+      display:flex;
+      flex-direction: column;
+      padding:20px;
+    }
+    .div-loading{
+      font-size:20px;
+  
+}
+
 }
