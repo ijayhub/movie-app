@@ -24,14 +24,14 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Repo_name:
+Repo_name: https://github.com/ijayhub/movie-app
 
 Hosted link:
 
 <h1 align="center">Movie Web App</h1>
 
 Description: 
-* This app allows you search for movies
+* This app allows users to search for movies
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
