@@ -7,7 +7,7 @@ const Navigation = ({search,setSearch}) => {
 			<div className='navigation'>
 				<nav>
 					<div className='container-nav'>
-					    <h1 className='text-3xl font-bold reduce'>Movie App</h1>
+							<h1 className='text-3xl font-bold reduce'>Movie App</h1>
 					    <div className='search'>
 							<form action='#'>
 								<input
