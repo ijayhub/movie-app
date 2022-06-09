@@ -12,7 +12,9 @@ const Home = () => {
 
 	useEffect(() => {
 		setTimeout(() => {
-			fetch(`http://www.omdbapi.com/?s=${search}&apikey=80c5285c`)
+			fetch(
+				`http://www.omdbapi.com/?s=${search}&apikey=${process.env.REACT_APP_MOVIES_API_KEY}`
+			)
 				.then((res) => {
 					return res.json();
 				})

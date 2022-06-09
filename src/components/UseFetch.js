@@ -19,7 +19,7 @@ const UseFetch = (url) => {
                 .catch((err) => {
                     console.log(err.message);
                 });
-        }, 700);
+        }, 300);
 			}, [url]);
     return{data,loading }
 }
