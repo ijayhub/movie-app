@@ -26,12 +26,12 @@
 
 Repo_name: https://github.com/ijayhub/movie-app
 
-Hosted link:
+Hosted link: https://ommovie-website.netlify.app
 
 <h1 align="center">Movie Web App</h1>
 
 Description: 
-* This app allows users to search for movies
+* This a display of movies allows users to search for movies.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
